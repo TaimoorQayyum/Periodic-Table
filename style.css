@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: 0 auto 20px;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.empty {
+    border: none;
+}
+
+.alkali {
+    background-color: #ff9999;
+    border: 2px solid #f95858;
+}
+
+.alkaline {
+    background-color: #ffcccc;
+    border: 2px solid #ff9999;
+}
+
+.transition {
+    background-color: #99ccff;
+    border: 2px solid #6699ff;
+}
+
+.poor {
+    background-color: #ccffcc;
+    border: 2px solid #66cc66;
+}
+
+.metalloid {
+    background-color: #ccccff;
+    border: 2px solid #9999ff;
+}
+
+.nonmetal {
+    background-color: #ffffcc;
+    border: 2px solid #ccff66;
+}
+
+.halogen {
+    background-color: #ccffff;
+    border: 2px solid #66ccff;
+}
+
+.noble {
+    background-color: #ffccff;
+    border: 2px solid #ff99ff;
+}
+
+.lanthanide {
+    background-color: #ffccff;
+    border: 2px solid #ff99ff;
+}
+
+.actinide {
+    background-color: #99ffff;
+    border: 2px solid #66cccc;
+}
+
+td :nth-child(1) {
+    font-size: 10px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+td :nth-child(2) {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+td:nth-child(3) {
+    font-size: 8px;
+}
