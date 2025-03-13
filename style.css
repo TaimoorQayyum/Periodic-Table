@@ -21,6 +21,12 @@ td {
     text-align: center;
     font-size: 12px;
     padding: 2px;
+    transition: transform 0.3s;
+}
+
+td:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .empty {
